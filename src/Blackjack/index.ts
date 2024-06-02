@@ -35,7 +35,7 @@ const determinarGanador = (): void => {
       : ((puntos > 21) || (puntosComputadora <= 21))
         ? alert('PERDISTE')
         : alert('GANASTE');
-  }, 200);
+  }, 500);
 }
 
 
